@@ -40,3 +40,10 @@ if (alturaEhValida && pesoEhValido) {
 } else {
     tdImc.textContent = "Altura e/ou peso inválidos!"
 }
+if(altura <= 0 || altura >= 3.00){
+    console.log("Altura inválida");
+    tdImc.textContent = "Altura inválida!";
+    alturaEhValida = false;
+
+    paciente.classList.add("paciente-invalido");
+}
