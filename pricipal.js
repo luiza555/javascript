@@ -1,12 +1,4 @@
-introducao-javascript
-├── css
-│   ├── index.css
-│   └── reset.css
-├── js
-│   └── principal.js
-├── img
-├── favicon.ico
-└── index.html
+
 var paciente = document.querySelector("#primeiro-paciente");
 
 var tdAltura = paciente.querySelector(".info-altura");
