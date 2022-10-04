@@ -46,4 +46,10 @@ if(altura <= 0 || altura >= 3.00){
     alturaEhValida = false;
 
     paciente.classList.add("paciente-invalido");
+}if(altura <= 0 || altura >= 3.00){
+    console.log("Altura inválida");
+    tdImc.textContent = "Altura inválida!";
+    alturaEhValida = false;
+
+    paciente.classList.add("paciente-invalido");
 }
